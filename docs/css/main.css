@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: "LB";
+    src: local("LibreBaskerville-Regular.otf") format('opentype');
+}
+
+header {
+  border-bottom: 3px solid #ffffff;
+  margin-bottom: 1rem;
+  font-family: LB;
+  font-size: 112%;
+}
+
+a {
+  color: #330514;
+  text-decoration: none;
+  font-family: LB;
+}
+
+body {
+  color: #330514;
+  font-family: LB;
+  font-size: 115%;
+  line-height: 1.6;
+  margin: 1rem;
+  height:100vh;
+  max-width: 100%;
+  background-color: #d5e4e7;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff
+}
+
+footer {
+  border-top: 8px solid #ffffff;
+  margin-top: 1rem;
+  height: 500px;
+  max-width: 100%;
+  font-family: LB;
+  font-size: 106%;
+}
